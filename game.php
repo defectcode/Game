@@ -50,14 +50,10 @@ class Game
             Game OVER!
             {$this->player1->name}: {$this->player1->coins}
             {$this->player2->name}: {$this->player2->coins}
-
             The winner: {$this->winner()->name}
-
             The number of throws {$this->flips}
-
         EOT;
     }
-
 }
 
 
